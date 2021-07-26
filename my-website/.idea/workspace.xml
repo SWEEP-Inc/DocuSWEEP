@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3647a256-2a4d-448a-b1a3-752f66f34eb0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/blog/2021-7-26-hello.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Code Examples/_category_.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Code Examples/add-a-destination-definition.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Code Examples/add-a-workflow-definition.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Code Examples/creating-executables.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Code Examples/launch-and-monitor-the-workflow.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Code Examples/setting-up-the-api.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Communication Between Tasks/_category_.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Communication Between Tasks/inputs.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Communication Between Tasks/outputs.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Example Workflows/example-1.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Example Workflows/example-2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Example Workflows/example-3.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Example Workflows/example-4.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Example Workflows/example-5.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Example Workflows/example-6.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Example Workflows/example-7.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Example Workflows/example-8.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/The Workflow Concept/_category_.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/The Workflow Concept/creating-container-definitions.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/The Workflow Concept/creating-destinations.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/The Workflow Concept/creating-function-definitions.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/The Workflow Concept/creating-workflow-configurations.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/The Workflow Concept/creating-workflows.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/The Workflow Concept/definitions-of-task-properties.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/The Workflow Concept/definitions-of-tasks.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/sweep/example_wd_DAG_dyn_A.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/sweep/example_wd_DAG_dyn_B.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/sweep/example_wf_DAG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/sweep/example_wf_DAG_follow2_A.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/sweep/example_wf_DAG_follow2_B.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/sweep/example_wf_DAG_follow_A.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/sweep/example_wf_DAG_follow_B.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/sweep/example_wf_DAG_mult.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/sweep/logo-o.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/sweep/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/sweep/navbar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/2019-05-28-hola.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/2019-05-29-hello-world.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/2019-05-30-welcome.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/intro.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/intro.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/tutorial-basics/_category_.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/tutorial-basics/congratulations.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/tutorial-basics/create-a-blog-post.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/tutorial-basics/create-a-document.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/tutorial-basics/create-a-page.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/tutorial-basics/deploy-your-site.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/tutorial-basics/markdown-features.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/tutorial-extras/_category_.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/tutorial-extras/manage-docs-versions.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/tutorial-extras/translate-your-site.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docusaurus.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docusaurus.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/custom.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1vjmbyFvNEx3rusgojg8Rw3B5uZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3647a256-2a4d-448a-b1a3-752f66f34eb0" name="Default Changelist" comment="" />
+      <created>1627083952378</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1627083952378</updated>
+      <workItem from="1627083954689" duration="2652000" />
+      <workItem from="1627091903623" duration="623000" />
+      <workItem from="1627329922891" duration="7954000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
