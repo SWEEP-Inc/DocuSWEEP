@@ -1,11 +1,11 @@
 ---
 sidebar_position: 5
 ---
-# Creating Destinations
+# Creating destinations
 
 A destination definition contains all the necessary information to execute a task on a cloud provider.
 
-> destination definition
+> Destination Definition
 ```python
   {
       'id' : str,
@@ -15,7 +15,7 @@ A destination definition contains all the necessary information to execute a tas
 ```
 
 
-required:
+Required:
 
 * **id:** unique identifier of the destination
 

@@ -1,14 +1,14 @@
 ---
 sidebar_position: 4
 ---
-# Definitions of Task Properties
+# Definitions of task properties
 
-> ### Task properties
-> Task properties are static values that are associated with a task. This means that they do not change over time,
-> they are associated with a workflow (unlike task attributes described below, which are associated with a particular launch of the workflow).
+## Task properties
+Task properties are static values that are associated with a task. This means that they do not change over time,
+they are associated with a workflow (unlike task attributes described below, which are associated with a particular launch of the workflow).
 
 
-* **position**: the position in the task graph. used to define the starting task.
+* **position**: the position in the task graph. used to define the starting task.  
 > There must be exactly one task with the property **'position' : 'start'**. This will be the first task that is executed, and all other tasks should be on a path from the start task in the DAG representation.
 
 * **delay**: time in seconds that a task should wait before being launched. the delay begins when the task is otherwise ready to lauch, after all its predecessors have finished.
@@ -57,7 +57,7 @@ sidebar_position: 4
 ## Dynamic task properties
 Dynamic task properties are properties whose value is decided at runtime.
 
-They are specified by strings of Python expressions, e.g. by referencing the output of a previous tasks using the output variable "predecessor_outputs" as shown in the examples below (see [Communication between tasks](#communication-between-tasks)).
+They are specified by strings of Python expressions, e.g. by referencing the output of a previous tasks using the output variable "predecessor_outputs" as shown in the examples below (see [Communication between tasks](../Communication%20Between%20Tasks/inputs)).
 
 #### The properties that must be dynamic are:
 * **deploy_conditions**

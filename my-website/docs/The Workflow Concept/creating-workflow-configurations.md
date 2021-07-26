@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 ---
-# Creating Workflow Configurations
+# Creating workflow configurations
 
 * **max_task_concurrency**: max number of tasks to run concurrently
 

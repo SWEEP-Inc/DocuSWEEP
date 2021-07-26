@@ -5,7 +5,7 @@ sidebar_position: 1
 
 Workflow tasks get input of the following structure:
 
-> task input
+> Task Input
 
 ```python
 {

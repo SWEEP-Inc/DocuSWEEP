@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 ---
-# Setting Up the API
+# Setting up the API
 
 ```python
     user = 'username'

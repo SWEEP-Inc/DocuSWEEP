@@ -2,7 +2,7 @@
 sidebar_position: 6
 ---
 
-# Creating Function Definitions
+# Creating function definitions
 
 Functions are currently only supported for the AWS cloud provider.
 
@@ -13,7 +13,7 @@ Functions are currently only supported for the AWS cloud provider.
 
 Function-based tasks are placed in a workflow by specifying a **function_def_id** in the **execution_configurations** of the workflow definition. This must correspond to the id of a *function_definition* that has been registered in SWEEP:
 
-> function definition
+> Function Definition
 
 ```python
   {
@@ -28,9 +28,7 @@ Function-based tasks are placed in a workflow by specifying a **function_def_id*
   }
 ```
 
-
-
-required:
+Required:
 
 * **id**: unique identifier of the function definition.
 
@@ -39,7 +37,7 @@ required:
 * **function_name**: the name of the function
 
 
-optional:
+Optional:
 
 * **environment_variables:** environment variables, e.g. {'EVAR1' : 'test'}
 

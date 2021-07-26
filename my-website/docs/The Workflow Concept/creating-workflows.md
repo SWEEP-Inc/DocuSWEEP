@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Creating Workflows  
+# Creating workflows  
 
 * **workflow_id**: unique identifier of the workflow  
 
