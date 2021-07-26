@@ -2,30 +2,16 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://SWEEP-Inc.github.io/DocuSWEEP/blog</id>
     <title>SWEEP Documentation Blog</title>
-    <updated>2019-05-30T00:00:00.000Z</updated>
+    <updated>2021-07-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://SWEEP-Inc.github.io/DocuSWEEP/blog"/>
     <subtitle>SWEEP Documentation Blog</subtitle>
-    <icon>https://SWEEP-Inc.github.io/DocuSWEEP/img/favicon.ico</icon>
+    <icon>https://SWEEP-Inc.github.io/DocuSWEEP/img/sweep/logo.png</icon>
     <entry>
-        <title type="html"><![CDATA[Welcome]]></title>
-        <id>welcome</id>
-        <link href="https://SWEEP-Inc.github.io/DocuSWEEP/blog/welcome"/>
-        <updated>2019-05-30T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Blog features are powered by the blog plugin. Simply add files to the blog directory. It supports tags as well!]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hello]]></title>
-        <id>hello-world</id>
-        <link href="https://SWEEP-Inc.github.io/DocuSWEEP/blog/hello-world"/>
-        <updated>2019-05-29T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Welcome to this blog. This blog is created with Docusaurus 2.]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hola]]></title>
-        <id>hola</id>
-        <link href="https://SWEEP-Inc.github.io/DocuSWEEP/blog/hola"/>
-        <updated>2019-05-28T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></summary>
+        <title type="html"><![CDATA[Docs and blog ported over!]]></title>
+        <id>Docs and blog ported over!</id>
+        <link href="https://SWEEP-Inc.github.io/DocuSWEEP/blog/2021/07/26/hello"/>
+        <updated>2021-07-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Today we have successfully ported over our documentation and blog using Docusaurus!]]></summary>
     </entry>
 </feed>
