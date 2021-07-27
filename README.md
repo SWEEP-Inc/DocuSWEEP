@@ -6,7 +6,7 @@ Link for Docusaurus documentation: [https://docusaurus.io/docs](https://docusaur
 ### Creating a new docs page in Docusaurus
 1\. Open up the repository in your local editor and navigate to the **my-website** folder.  
 
-2\. Navigate to the section you want to create your page in. If you want to create a new section, add a new folder under **docs** and add a new file called **_category_.json**. Name the folder the section name. Within this json file, add the label and the position of your new section in the sidebar. For example,
+2\. Navigate to the section you want to create your page in. If you want to create a new section, add a new folder under **docs** and add a new file called **\_category\_.json**. Name the folder the section name. Within this json file, add the label and the position of your new section in the sidebar. For example,
 ```json
 {
   "label": "Code Examples",
