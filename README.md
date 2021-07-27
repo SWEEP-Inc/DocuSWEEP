@@ -35,3 +35,5 @@ slug: /myDoc
 ---
 ```
 specifies a list of properties for the doc. See [https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-docs#markdown-frontmatter](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-docs#markdown-frontmatter) for more details.
+
+4\. Create your markdown file! All of the normal markdown rules apply.
