@@ -1,10 +1,6 @@
 # Example 1: A simple workflow
 
-## DAG Representation
-
-![Example 1](/img/sweep/example_wf_DAG.png)
-
-## workflow definition
+## Workflow definition
 ```python
 
 {
@@ -72,3 +68,7 @@
   ]
 }
 ```
+
+## DAG Representation
+
+![Example 1](/img/sweep/example_wf_DAG.png)

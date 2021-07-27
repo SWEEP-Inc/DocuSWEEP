@@ -13,7 +13,9 @@ The output of a task is made available to its succesors in the variable **predec
 
 Only function-based tasks have return values. The only requirement of the return value is that it is a dict.
 
-See [examples/lambda_function_template.py](examples/lambda_function_template.py) for an example of a function with a valid return value.
+See
+[lamba_function_template.py](./assets/lambda_function_template.py)
+for an example of a function with a valid return value.
 
 Containers do not have return values.
 

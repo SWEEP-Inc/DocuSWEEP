@@ -32,7 +32,7 @@ Required:
 
 * **id**: unique identifier of the function definition.
 
-* **destination_id**: id of a destination, must be one that has already been registered in SWEEP. See [Creating destinations](#creating-destinations).
+* **destination_id**: id of a destination, must be one that has already been registered in SWEEP. See [Creating destinations](../The%20Workflow%20Concept/creating-destinations).
 
 * **function_name**: the name of the function
 

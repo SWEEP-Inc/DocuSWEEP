@@ -1,11 +1,6 @@
 #  Example 2: A workflow with a scattered task
 
-### workflow definition
-
-See [examples/example2/example2.json](examples/example2/example2.json)
-
-![Example 2A](/img/sweep/example_wd_DAG_dyn_A.png)
-![Example 2B](/img/sweep/example_wd_DAG_dyn_B.png)
+### Workflow definition
 
 ```python
 
@@ -78,6 +73,8 @@ Then task **2** will be expanded to tasks **2_A**, **2_B**, **2_C**, each receiv
 ### DAG representation
 
 Task **2** is a scatter task:
+![Example 2A](/img/sweep/example_wd_DAG_dyn_A.png)
 
 Upon completion of task **1**, task **2** is expanded into 3 tasks: **2_A**, **2_B** and **2_C**
+![Example 2B](/img/sweep/example_wd_DAG_dyn_B.png)
 

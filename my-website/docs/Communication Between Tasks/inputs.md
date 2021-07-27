@@ -28,7 +28,9 @@ The task input can not always be accessed in the executable code of the task, ho
 
 Function-based tasks receive the task input as a function argument, and it can therefore be accessed in the function code itself.
 
-See [examples/lambda_function_template.py](examples/lambda_function_template.py) for an example of a function that accesses the output from its predecessors.
+See
+[lamba_function_template.py](./assets/lambda_function_template.py)
+for an example of a function that accesses the output from its predecessors.
 
 
 

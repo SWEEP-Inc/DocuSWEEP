@@ -30,9 +30,9 @@
 
 #### Step 1: Create a docker image and compress it
 
-[examples/hello_world_container/hello_world](examples/hello_world_container/hello_world) contains files for creating a simple docker image that prints 'hello world'.
+[hello_world.zip](./assets/hello_world.zip) contains files for creating a simple docker image that prints 'hello world'.
 
-The script [examples/hello_world_container/docker_cmds_hello_world.sh](examples/hello_world_container/docker_cmds_hello_world.sh) contains commands
+The script [docker_cmds_hello_world.sh](./assets/docker_cmds_hello_world.sh) contains commands
 to build the image, run it locally and display its exit code, and compress it to a tar archive:
 
     $ ./docker_cmds_hello_world.sh
@@ -49,12 +49,12 @@ to build the image, run it locally and display its exit code, and compress it to
 
 #### Step 2: Upload the container definition to SWEEP
 
-A container definition for the hello world image is in [examples/hello_world_container/container_def_hello_world.json](examples/hello_world_container/container_def_hello_world).
+A container definition for the hello world image is in [container_def_hello_world.json](pathname://./assets/_container_def_hello_world.json)
 
 Use the SWEEP-API to upload the container definition:
 
 ```python
-    container_def_file = 'examples/hello_world_container/container_def_hello_world.json'
+    container_def_file = 'examples/hello_world_container/_container_def_hello_world.json'
     response = sweep_client.upload_container_def(
     	container_def_file='examples/hello_world_container/cdef_hello_world.json',
     	container_code_file='examples/hello_world_container/hello_world.tar',

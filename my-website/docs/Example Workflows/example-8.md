@@ -5,9 +5,7 @@ Container-based tasks do not output any values to the workflow scheduler, but on
 
 An example based on the previous one, but with a 3rd task that gets information from task 2:
 
-### workflow definition
-
-see [examples/example8/wf_def_static_output.json](examples/example8/wf_def_static_output.json)
+### Workflow definition
 
 ```python
 

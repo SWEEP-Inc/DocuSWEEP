@@ -1,7 +1,6 @@
 # Example 3: A workflow with scatter and follow
 
-### workflow definition
-See [examples/example3/example3.json](examples/example3/example3.json)
+### Workflow definition
 
 ```python
 

@@ -33,11 +33,19 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'SWEEP',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'SWEEP Website',
+              to: 'https://sweep.run/',
+            },
+            {
+              label: 'Docs',
+              to: '/'
+            },
+            {
+              label: 'Blog',
+              to: '/blog'
             },
           ],
         },
@@ -45,34 +53,17 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: '/blog',
+              href: 'https://twitter.com/dotmotelabs',
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
-            },
+              label: 'Dotmote Labs',
+              href: 'https://dotmotelabs.com/'
+            }
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © Dotmote Labs ${new Date().getFullYear()}`,
     },
     prism: {
       theme: lightCodeTheme,

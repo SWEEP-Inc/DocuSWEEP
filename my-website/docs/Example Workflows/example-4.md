@@ -1,7 +1,6 @@
 #  Example 4: A more complicated workflow with follow
 
-### workflow definition
-see  [examples/example4/example4.json](examples/example4/example4.json)
+### Workflow definition
 
 ```python
 {

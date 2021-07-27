@@ -9,9 +9,7 @@ An example where a function-based task outputs information about how many contai
 
 
 
-### workflow definition
-
-see [examples/example7/wf_def_overrides_pred.json](examples/example7/wf_def_overrides_pred.json)
+### Workflow definition
 
 ```python
 

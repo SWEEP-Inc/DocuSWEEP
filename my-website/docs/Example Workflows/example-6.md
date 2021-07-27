@@ -2,8 +2,7 @@
 
 A workflow with a single container-based task with command and environment variables defined in the workflow definition, overriding those in the docker image.
 
-### workflow definition
-see  [examples/example6/wf_def_overrides.json](examples/example6/wf_def_overrides.json)
+### Workflow definition
 
 ```python
 {
