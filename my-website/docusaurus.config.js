@@ -5,8 +5,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 module.exports = {
   title: 'SWEEP Documentation',
   tagline: 'Documentation for the SWEEP website',
-  url: 'https://SWEEP-Inc.github.io',
-  baseUrl: '/DocuSWEEP/',
+  url: 'https://docs.sweep.run/',
+  baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/sweep/logo.png',

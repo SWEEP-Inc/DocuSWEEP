@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3647a256-2a4d-448a-b1a3-752f66f34eb0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/Code Examples/assets/_container_def_hello_world.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Code Examples/assets/docker_cmds_hello_world.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Code Examples/assets/hello_world.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Communication Between Tasks/assets/lambda_function_template.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Code Examples/add-a-destination-definition.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Code Examples/add-a-destination-definition.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Code Examples/creating-executables.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Code Examples/creating-executables.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Communication Between Tasks/inputs.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Communication Between Tasks/inputs.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Communication Between Tasks/outputs.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Communication Between Tasks/outputs.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Example Workflows/example-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Example Workflows/example-1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Example Workflows/example-2.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Example Workflows/example-2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Example Workflows/example-3.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Example Workflows/example-3.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Example Workflows/example-4.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Example Workflows/example-4.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Example Workflows/example-5.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Example Workflows/example-5.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Example Workflows/example-6.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Example Workflows/example-6.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Example Workflows/example-7.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Example Workflows/example-7.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Example Workflows/example-8.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Example Workflows/example-8.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/The Workflow Concept/creating-function-definitions.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/The Workflow Concept/creating-function-definitions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docusaurus.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docusaurus.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +11,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1vjmbyFvNEx3rusgojg8Rw3B5uZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -53,7 +43,9 @@
       <workItem from="1627091903623" duration="623000" />
       <workItem from="1627329922891" duration="10613000" />
       <workItem from="1627417571928" duration="4410000" />
-      <workItem from="1627426535594" duration="1761000" />
+      <workItem from="1627426535594" duration="3285000" />
+      <workItem from="1627436147560" duration="16000" />
+      <workItem from="1627502389245" duration="9000" />
     </task>
     <servers />
   </component>
