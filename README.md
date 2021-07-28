@@ -1,7 +1,48 @@
 # DocuSWEEP
 SWEEP Documentation powered by Docusaurus  
 Link for production site: [https://sweep-inc.github.io/DocuSWEEP/](https://sweep-inc.github.io/DocuSWEEP/)  
-Link for Docusaurus documentation: [https://docusaurus.io/docs](https://docusaurus.io/docs)
+Link for Docusaurus documentation: [https://docs.sweep.run](https://docs.sweep.run)
+
+### Running Docusaurus on your local machine
+1\. If needed, clone the remote repository to your computer with
+```shell
+git clone https://github.com/SWEEP-Inc/DocuSWEEP.git
+```
+
+2\. Go to the folder **my-website**.
+```shell
+cd my-website
+```
+
+3\. Use
+```shell
+yarn start
+```
+and the website should be up and running at [http://localhost:3000](http://localhost:3000)!
+
+### Deploying to GitHub Pages
+1\. Run
+```shell
+cd my-website
+yarn build
+```
+to build your project to the **build** directory.
+
+2\. Run
+```shell
+yarn serve
+```
+to run the build directory on your local machine at [http://localhost:3000](http://localhost:3000) at ensure that it works. If there are errors, please fix them before deploying.
+
+3\. If you are are Windows, use
+```shell
+cmd /C "set "GIT_USER=<GITHUB_USERNAME>" && yarn deploy"
+```
+to deploy to GitHub pages. If you are using Linux, use
+```shell
+GIT_USER=<GITHUB_USERNAME> yarn deploy
+```
+to deploy to GitHub pages and you should be done! The link should either be the default one that starts with http://sweep-inc.github.io/[project_name_here] or the one specified in **static/CNAME**.
 
 ### Creating a new docs page in Docusaurus
 1\. Open up the repository in your local editor and navigate to the **my-website** folder.  
