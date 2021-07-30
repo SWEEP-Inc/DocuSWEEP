@@ -9,9 +9,9 @@ Link for Docusaurus documentation: [https://docs.sweep.run](https://docs.sweep.r
 git clone https://github.com/SWEEP-Inc/DocuSWEEP.git
 ```
 
-2\. Go to the folder **my-website**.
+2\. Go to the folder **sweep-docs-website**.
 ```shell
-cd my-website
+cd sweep-docs-website
 ```
 
 3\. Use
@@ -23,7 +23,7 @@ and the website should be up and running at [http://localhost:3000](http://local
 ### Deploying to GitHub Pages
 1\. Run
 ```shell
-cd my-website
+cd sweep-docs-website
 yarn build
 ```
 to build your project to the **build** directory.
@@ -45,7 +45,7 @@ GIT_USER=<GITHUB_USERNAME> yarn deploy
 to deploy to GitHub pages and you should be done! The link should either be the default one that starts with http://sweep-inc.github.io/[project_name_here] or the one specified in **static/CNAME**.
 
 ### Creating a new docs page in Docusaurus
-1\. Open up the repository in your local editor and navigate to the **my-website** folder.  
+1\. Open up the repository in your local editor and navigate to the **sweep-docs-website** folder.  
 
 2\. Navigate to the section you want to create your page in. If you want to create a new section, add a new folder under **docs** and add a new file called **\_category\_.json**. Name the folder the section name. Within this json file, add the label and the position of your new section in the sidebar. For example,
 ```json
