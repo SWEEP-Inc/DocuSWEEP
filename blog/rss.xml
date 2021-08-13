@@ -9,7 +9,7 @@
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
             <title><![CDATA[Docs and blog ported over!]]></title>
-            <link>https://docs.sweep.run/blog/2021/07/26/hello</link>
+            <link>https://docs.sweep.run/blog/2021/7/26/hello</link>
             <guid>Docs and blog ported over!</guid>
             <pubDate>Mon, 26 Jul 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[Today we have successfully ported over our documentation and blog using Docusaurus!]]></description>
