@@ -30,7 +30,7 @@ required:
 
 * **id**: unique identifier of the container definition.
 
-* **destination_id**: id of a destination, must be one that has already been registered in SWEEP. See [Creating destinations](creating-destinations).
+* **destination_id**: id of a destination, must be one that has already been registered in SWEEP. See [Creating destinations](creating-destinations.md).
 
 * **image_name** and **image_tag**: define the image to base the container on.
 

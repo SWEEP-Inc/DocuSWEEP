@@ -61,7 +61,7 @@ An example where a function-based task outputs information about how many contai
 > In this case, the output of the function prepFunc is scattered over.
 > "predecessor_outputs['1']['env_vars']" will contain a list with one item for each subsequent task.
 
-The definition of the lambda function **prepFunc** is [examples/example7/main.py](examples/example7/main.py)
+The definition of the lambda function **prepFunc** is [example7.py](./assets/example7.py)
 
 ```python
 

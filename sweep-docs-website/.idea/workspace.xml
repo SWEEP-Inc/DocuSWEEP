@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="65a414cb-70ac-46a5-b061-72f8dfbce301" name="Default Changelist" comment="" />
+    <list default="true" id="65a414cb-70ac-46a5-b061-72f8dfbce301" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/static/downloads/_container_def_hello_world.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/downloads/docker_cmds_hello_world.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Code Examples/add-a-destination-definition.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Code Examples/add-a-destination-definition.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Code Examples/creating-executables.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Code Examples/creating-executables.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Example Workflows/example-7.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Example Workflows/example-7.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/The Workflow Concept/creating-container-definitions.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/The Workflow Concept/creating-container-definitions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/The Workflow Concept/definitions-of-task-properties.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/The Workflow Concept/definitions-of-task-properties.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/The Workflow Concept/definitions-of-tasks.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/The Workflow Concept/definitions-of-tasks.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +32,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/downloads" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Collin\Dotmote Labs\DocuSWEEP\sweep-docs-website\static\downloads" />
+      <recent name="C:\Users\Collin\Dotmote Labs\DocuSWEEP\sweep-docs-website\docs\Code Examples\assets" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -31,10 +50,29 @@
       <option name="presentableId" value="Default" />
       <updated>1627689125444</updated>
       <workItem from="1627689128579" duration="12000" />
+      <workItem from="1627799292541" duration="338000" />
+      <workItem from="1627936092607" duration="6000" />
+      <workItem from="1628892576138" duration="626000" />
+      <workItem from="1628893845389" duration="4764000" />
+      <workItem from="1629321376206" duration="304000" />
+      <workItem from="1629323043729" duration="59000" />
+      <workItem from="1629323206868" duration="65000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

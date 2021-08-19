@@ -32,8 +32,16 @@
 
 [hello_world.zip](./assets/hello_world.zip) contains files for creating a simple docker image that prints 'hello world'.
 
-The script [docker_cmds_hello_world.sh](./assets/docker_cmds_hello_world.sh) contains commands
-to build the image, run it locally and display its exit code, and compress it to a tar archive:
+This script
+```console
+cd hello_world
+docker build --tag hello_world .
+docker run hello_world; echo $?
+docker save -o hello_world.tar hello_world:latest
+```
+contains commands
+to build the image, run it locally and display its exit code, and compress it to a tar archive.
+Please save this script as **docker_cmds_hello_world.sh** and run
 
     $ ./docker_cmds_hello_world.sh
 
@@ -49,7 +57,18 @@ to build the image, run it locally and display its exit code, and compress it to
 
 #### Step 2: Upload the container definition to SWEEP
 
-A container definition for the hello world image is in [container_def_hello_world.json](pathname://./assets/_container_def_hello_world.json)
+A container definition for the hello world image is:
+```json
+{
+  "id" : "cdef_hello_world",
+  "destination_id" : "dest1",
+  "image_name": "hello_world",
+  "image_tag": "latest",
+  "cpu" : "0.25",
+  "memory" : "512"
+}
+```
+Please save this JSON as **_container_def_hello_world.json**.
 
 Use the SWEEP-API to upload the container definition:
 

@@ -57,7 +57,7 @@ they are associated with a workflow (unlike task attributes described below, whi
 ## Dynamic task properties
 Dynamic task properties are properties whose value is decided at runtime.
 
-They are specified by strings of Python expressions, e.g. by referencing the output of a previous tasks using the output variable "predecessor_outputs" as shown in the examples below (see [Communication between tasks](../Communication%20Between%20Tasks/inputs)).
+They are specified by strings of Python expressions, e.g. by referencing the output of a previous tasks using the output variable "predecessor_outputs" as shown in the examples below (see [Communication between tasks](../Communication%20Between%20Tasks/inputs.md).
 
 #### The properties that must be dynamic are:
 * **deploy_conditions**

@@ -1,6 +1,6 @@
 # Add a destination definition
 
-See [Creating destinations](../The%20Workflow%20Concept/creating-destinations) for information on what the destination definition should contain.
+See [Creating destinations](../The%20Workflow%20Concept/creating-destinations.md) for information on what the destination definition should contain.
 
 ```python
 

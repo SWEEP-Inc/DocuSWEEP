@@ -12,9 +12,9 @@ Functions and containers are the two types of executables supported by SWEEP.
 
 * **execution_configurations**: list of dicts that defines what **executables** this task can consist of, and their priority.
 
-    for *function-based tasks*: **function_def_id** is given, it must correspond to the id of a **function definition** that has been registered in SWEEP. See [Creating function definitions](../The%20Workflow%20Concept/creating-function-definitions).
+    for *function-based tasks*: **function_def_id** is given, it must correspond to the id of a **function definition** that has been registered in SWEEP. See [Creating function definitions](../The%20Workflow%20Concept/creating-function-definitions.md).
 
-    for *container-based tasks*: **container_def_id** is given, it must correspond to the id of a **container definition** that has been registered in SWEEP. See [Creating container definitions](../The%20Workflow%20Concept/creating-container-definitions).
+    for *container-based tasks*: **container_def_id** is given, it must correspond to the id of a **container definition** that has been registered in SWEEP. See [Creating container definitions](../The%20Workflow%20Concept/creating-container-definitions.md).
 
 * **successors**: a list of tasks that should be invoked when the task finishes. this defines the DAG representing the workflow.
 
