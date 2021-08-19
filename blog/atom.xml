@@ -10,7 +10,7 @@
     <entry>
         <title type="html"><![CDATA[Docs and blog ported over!]]></title>
         <id>Docs and blog ported over!</id>
-        <link href="https://docs.sweep.run/blog/2021/07/26/hello"/>
+        <link href="https://docs.sweep.run/blog/2021/7/26/hello"/>
         <updated>2021-07-26T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Today we have successfully ported over our documentation and blog using Docusaurus!]]></summary>
     </entry>
