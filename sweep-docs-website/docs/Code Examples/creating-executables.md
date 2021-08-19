@@ -54,6 +54,10 @@ Please save this script as **docker_cmds_hello_world.sh** and run
     > Hello world!
     > 0
 
+:::danger
+If you are using the SWEEP UI, you must still follow the above steps in creating the tar file using Docker. DO NOT use a zip file
+and DO NOT use 7-Zip to create the tar file.
+:::
 
 #### Step 2: Upload the container definition to SWEEP
 

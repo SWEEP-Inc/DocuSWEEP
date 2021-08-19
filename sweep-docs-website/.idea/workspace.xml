@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65a414cb-70ac-46a5-b061-72f8dfbce301" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/downloads/_container_def_hello_world.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/downloads/docker_cmds_hello_world.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Code Examples/add-a-destination-definition.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Code Examples/add-a-destination-definition.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/Code Examples/creating-executables.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Code Examples/creating-executables.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Example Workflows/example-7.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Example Workflows/example-7.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/The Workflow Concept/creating-container-definitions.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/The Workflow Concept/creating-container-definitions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/The Workflow Concept/definitions-of-task-properties.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/The Workflow Concept/definitions-of-task-properties.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/The Workflow Concept/definitions-of-tasks.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/The Workflow Concept/definitions-of-tasks.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +48,8 @@
       <workItem from="1629321376206" duration="304000" />
       <workItem from="1629323043729" duration="59000" />
       <workItem from="1629323206868" duration="65000" />
+      <workItem from="1629406188138" duration="223000" />
+      <workItem from="1629416335293" duration="244000" />
     </task>
     <servers />
   </component>
