@@ -43,6 +43,19 @@ optional:
 
 *  **command**: defines the command to run when starting the container, overriding the command specified in the docker image definition.
 
+**Environment Variables**
+
+Unlike in function definitions, environment variables are not set in the container definition. Instead, they are set in the task properties:
+
+> Environment Properties
+```python
+'environment' : [
+                {'name': 'EVAR1', 'value': '1'},
+                {'name': 'EVAR2', 'value': 'hello'}
+              ]
+```
+
+Refer to the [definitions of task properties](definitions-of-task-properties) page for additional details on how to define task properties for an executable.
 
 > **Runtime resources of the container**
 
