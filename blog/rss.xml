@@ -4,9 +4,16 @@
         <title>SWEEP Documentation Blog</title>
         <link>https://docs.sweep.run/blog</link>
         <description>SWEEP Documentation Blog</description>
-        <lastBuildDate>Mon, 26 Jul 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 27 Sep 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[You can now view public workflows on SWEEP!]]></title>
+            <link>https://docs.sweep.run/blog/2021/9/27/update</link>
+            <guid>You can now view public workflows on SWEEP!</guid>
+            <pubDate>Mon, 27 Sep 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[You can now view public workflows on SWEEP as a non-user!]]></description>
+        </item>
         <item>
             <title><![CDATA[Docs and blog ported over!]]></title>
             <link>https://docs.sweep.run/blog/2021/7/26/hello</link>

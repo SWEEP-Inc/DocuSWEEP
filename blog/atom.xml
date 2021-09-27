@@ -2,16 +2,29 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://docs.sweep.run/blog</id>
     <title>SWEEP Documentation Blog</title>
-    <updated>2021-07-26T00:00:00.000Z</updated>
+    <updated>2021-09-27T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://docs.sweep.run/blog"/>
     <subtitle>SWEEP Documentation Blog</subtitle>
     <icon>https://docs.sweep.run/img/sweep/logo.png</icon>
+    <entry>
+        <title type="html"><![CDATA[You can now view public workflows on SWEEP!]]></title>
+        <id>You can now view public workflows on SWEEP!</id>
+        <link href="https://docs.sweep.run/blog/2021/9/27/update"/>
+        <updated>2021-09-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[You can now view public workflows on SWEEP as a non-user!]]></summary>
+        <author>
+            <name>Collin Dang</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Docs and blog ported over!]]></title>
         <id>Docs and blog ported over!</id>
         <link href="https://docs.sweep.run/blog/2021/7/26/hello"/>
         <updated>2021-07-26T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Today we have successfully ported over our documentation and blog using Docusaurus!]]></summary>
+        <author>
+            <name>Collin Dang</name>
+        </author>
     </entry>
 </feed>

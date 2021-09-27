@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksweep_docs_website=self.webpackChunksweep_docs_website||[]).push([[4085],{8188:function(s){s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/public-workflows","name":"public workflows","count":1,"permalink":"/blog/tags/public-workflows"}')}}]);
