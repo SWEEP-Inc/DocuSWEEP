@@ -68,10 +68,32 @@ Required:
   }
 ```
 
-* **azure_auth_file:** filename of a file containing Azure authentication info.
+* **azure_auth_file:** path and filename of a file containing Azure authentication info.
 
 * **azure_region:** Azure region to use
 
 * **azure_resource_group:** name of the resource group to use
 
 * **azure_container_registry:** name of the container registry to use
+
+
+### Google destinations
+
+```python
+  {
+      'id' : str,
+      'cloud_provider' : 'Google',
+      'credentials' : {'service_account_file':str}
+      'google_location' : str
+      'google_project' : str
+      'google_storage_bucket' : str
+  }
+```
+
+* **service_account_file:** path and filename of a file containing Google authentication info.
+
+* **google_location:** Google location (region) to use
+
+* **google_project:** name of the Google cloud project to use
+
+* **google_storage_bucket:** name of a bucket in Google cloud storage to store function code in, must exist under the given project

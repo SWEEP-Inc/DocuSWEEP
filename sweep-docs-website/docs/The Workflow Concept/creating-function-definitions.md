@@ -4,7 +4,7 @@ sidebar_position: 6
 
 # Creating function definitions
 
-Functions are currently only supported for the AWS cloud provider.
+Functions are currently only supported for AWS and Google cloud.
 
 > A function definition contains three elements:
 > 1. Where: A destination (cloud provider) where to run the function
@@ -23,8 +23,8 @@ Function-based tasks are placed in a workflow by specifying a **function_def_id*
 
       'environment_variables' : dict
       'description' : str
-      'memory' : int
-      'runtime' : 'nodejs'|'nodejs4.3'|'nodejs6.10'|'nodejs8.10'|'nodejs10.x'|'nodejs12.x'|'java8'|'java8.al2'|'java11'|'python2.7'|'python3.6'|'python3.7'|'python3.8'|'dotnetcore1.0'|'dotnetcore2.0'|'dotnetcore2.1'|'dotnetcore3.1'|'nodejs4.3-edge'|'go1.x'|'ruby2.5'|'ruby2.7'|'provided'|'provided.al2',
+      'memory' : int (see below for valid values for each cloud provider)
+      'runtime' : str (see below for valid values for each cloud provider)
   }
 ```
 
@@ -43,10 +43,24 @@ Optional:
 
 * **description:** string describing the function
 
+For AWS:
+
 * **memory:** the amount of memory that your function has access to, in MB. increasing the function's memory also increases its CPU allocation. the default value is 128 MB. the value must be a multiple of 64 MB
 
-* **runtime:** the function runtime. default is python3.6
-'nodejs'|'nodejs4.3'|'nodejs6.10'|'nodejs8.10'|'nodejs10.x'|'nodejs12.x'|'java8'|'java8.al2'|'java11'|'python2.7'|'python3.6'|'python3.7'|'python3.8'|'dotnetcore1.0'|'dotnetcore2.0'|'dotnetcore2.1'|'dotnetcore3.1'|'nodejs4.3-edge'|'go1.x'|'ruby2.5'|'ruby2.7'|'provided'|'provided.al2',
+* **runtime:** the function runtime. default is python 3.9
+    * for AWS:'nodejs'|'nodejs4.3'|'nodejs6.10'|'nodejs8.10'|'nodejs10.x'|'nodejs12.x'|'java8'|'java8.al2'|'java11'|'python2.7'|'python3.6'|'python3.7'|'python3.8'|'dotnetcore1.0'|'dotnetcore2.0'|'dotnetcore2.1'|'dotnetcore3.1'|'nodejs4.3-edge'|'go1.x'|'ruby2.5'|'ruby2.7'|'provided'|'provided.al2',
+
+For Google Cloud:
+
+
+* **memory:** the amount of memory that your function has access to, in MB. increasing the function's memory also increases its CPU allocation. the default value is 128 MB. the possible values are (in MB): 128, 256, 512, 1024, 2048, 4096, 8292
+
+* **runtime:** the function runtime. default is python37
+    * for AWS:'nodejs'|'nodejs4.3'|'nodejs6.10'|'nodejs8.10'|'nodejs10.x'|'nodejs12.x'|'java8'|'java8.al2'|'java11'|'python2.7'|'python3.6'|'python3.7'|'python3.8'|'dotnetcore1.0'|'dotnetcore2.0'|'dotnetcore2.1'|'dotnetcore3.1'|'nodejs4.3-edge'|'go1.x'|'ruby2.5'|'ruby2.7'|'provided'|'provided.al2',
+    * for GC: 'nodejs16' | 'nodejs14' | 'nodejs12' | 'nodejs10' | 'nodejs8' | 'nodejs6' | 'python310' | 'python39' | 'python38' | 'python37' | 'go116' | 'go113' | 'go111' | 'java17' | 'java11' | 'dotnet6' | 'dotnet3' | 'ruby30' | 'ruby27' | 'ruby26' | 'php81' | 'php74'
+
+
+* **entry_point**: the name of the function entry point. defuat is 'main'
 
 
 > Note that the *function_definition* does not contain information about the actual code of the function. This is only specified when uploading the function to SWEEP, after that the function is referred to using its *function_name*.
