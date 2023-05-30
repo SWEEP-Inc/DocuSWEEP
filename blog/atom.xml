@@ -9,29 +9,22 @@
     <icon>https://docs.sweep.run/img/sweep/logo.png</icon>
     <entry>
         <title type="html"><![CDATA[You can now view public workflows on SWEEP!]]></title>
-        <id>https://docs.sweep.run/blog/2021/9/27/update</id>
+        <id>You can now view public workflows on SWEEP!</id>
         <link href="https://docs.sweep.run/blog/2021/9/27/update"/>
         <updated>2021-09-27T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[You can now view public workflows on SWEEP as a non-user!]]></summary>
-        <content type="html"><![CDATA[<p>You can now view public workflows on SWEEP as a non-user!  </p><p>Head on over to <a href="https://sweep.run/public_workflows/" target="_blank" rel="noopener noreferrer">SWEEP</a> to see our public workflows. Make a free account to try one today!</p>]]></content>
         <author>
             <name>Collin Dang</name>
         </author>
-        <category label="update" term="update"/>
-        <category label="SWEEP" term="SWEEP"/>
-        <category label="public workflows" term="public workflows"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Docs and blog ported over!]]></title>
-        <id>https://docs.sweep.run/blog/2021/7/26/hello</id>
+        <id>Docs and blog ported over!</id>
         <link href="https://docs.sweep.run/blog/2021/7/26/hello"/>
         <updated>2021-07-26T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Today we have successfully ported over our documentation and blog using Docusaurus!]]></summary>
-        <content type="html"><![CDATA[<p>Today we have successfully ported over our documentation and blog using Docusaurus!</p>]]></content>
         <author>
             <name>Collin Dang</name>
         </author>
-        <category label="hello" term="hello"/>
-        <category label="SWEEP" term="SWEEP"/>
     </entry>
 </feed>
