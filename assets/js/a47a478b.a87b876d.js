@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksweep_docs_website=self.webpackChunksweep_docs_website||[]).push([[1199],{5696:function(e){e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/sweep","name":"SWEEP","count":2,"permalink":"/blog/tags/sweep"}')}}]);

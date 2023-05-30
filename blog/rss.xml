@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>SWEEP Documentation Blog</title>
         <link>https://docs.sweep.run/blog</link>
@@ -7,19 +7,27 @@
         <lastBuildDate>Mon, 27 Sep 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
         <item>
             <title><![CDATA[You can now view public workflows on SWEEP!]]></title>
             <link>https://docs.sweep.run/blog/2021/9/27/update</link>
-            <guid>You can now view public workflows on SWEEP!</guid>
+            <guid>https://docs.sweep.run/blog/2021/9/27/update</guid>
             <pubDate>Mon, 27 Sep 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[You can now view public workflows on SWEEP as a non-user!]]></description>
+            <content:encoded><![CDATA[<p>You can now view public workflows on SWEEP as a non-user!  </p><p>Head on over to <a href="https://sweep.run/public_workflows/" target="_blank" rel="noopener noreferrer">SWEEP</a> to see our public workflows. Make a free account to try one today!</p>]]></content:encoded>
+            <category>update</category>
+            <category>SWEEP</category>
+            <category>public workflows</category>
         </item>
         <item>
             <title><![CDATA[Docs and blog ported over!]]></title>
             <link>https://docs.sweep.run/blog/2021/7/26/hello</link>
-            <guid>Docs and blog ported over!</guid>
+            <guid>https://docs.sweep.run/blog/2021/7/26/hello</guid>
             <pubDate>Mon, 26 Jul 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[Today we have successfully ported over our documentation and blog using Docusaurus!]]></description>
+            <content:encoded><![CDATA[<p>Today we have successfully ported over our documentation and blog using Docusaurus!</p>]]></content:encoded>
+            <category>hello</category>
+            <category>SWEEP</category>
         </item>
     </channel>
 </rss>
