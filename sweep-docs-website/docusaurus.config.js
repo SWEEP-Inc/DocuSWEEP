@@ -4,19 +4,19 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'SWEEP Documentation',
-  tagline: 'Documentation for the SWEEP website',
+  tagline: 'Automate your development workflows with AI-powered pull requests',
   url: 'https://docs.sweep.run/',
   baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/sweep/logo.png',
-  organizationName: 'SWEEP-Inc', // Usually your GitHub org/user name.
-  projectName: 'DocuSWEEP', // Usually your repo name.
+  organizationName: 'SWEEP-Inc',
+  projectName: 'DocuSWEEP',
   themeConfig: {
     navbar: {
       title: 'SWEEP Documentation',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'SWEEP Logo',
         src: 'img/sweep/logo.png',
       },
       items: [
@@ -26,26 +26,39 @@ module.exports = {
           position: 'left',
           label: 'Docs',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        {
+          to: '/blog',
+          label: 'Blog',
+          position: 'left',
+        },
+        {
+          href: 'https://github.com/SWEEP-Inc/sweep',
+          label: 'GitHub',
+          position: 'right',
+        },
       ],
     },
     footer: {
       style: 'dark',
       links: [
         {
-          title: 'SWEEP',
+          title: 'Product',
           items: [
             {
               label: 'SWEEP Website',
-              to: 'https://sweep.run/',
+              href: 'https://sweep.run/',
             },
             {
-              label: 'Docs',
-              to: '/'
+              label: 'Documentation',
+              to: '/',
             },
             {
               label: 'Blog',
-              to: '/blog'
+              to: '/blog',
+            },
+            {
+              label: 'Pricing',
+              href: 'https://sweep.run/pricing',
             },
           ],
         },
@@ -53,21 +66,68 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/dotmotelabs',
+              label: 'GitHub',
+              href: 'https://github.com/SWEEP-Inc/sweep',
             },
             {
-              label: 'Dotmote Labs',
-              href: 'https://dotmotelabs.com/'
-            }
+              label: 'Discord',
+              href: 'https://discord.gg/sweep',
+            },
+            {
+              label: 'Twitter',
+              href: 'https://twitter.com/sweep_run',
+            },
+            {
+              label: 'Email',
+              href: 'mailto:support@sweep.run',
+            },
+          ],
+        },
+        {
+          title: 'Resources',
+          items: [
+            {
+              label: 'API Reference',
+              to: '/api',
+            },
+            {
+              label: 'Changelog',
+              href: 'https://github.com/SWEEP-Inc/sweep/releases',
+            },
+            {
+              label: 'Status',
+              href: 'https://status.sweep.run',
+            },
+          ],
+        },
+        {
+          title: 'Legal',
+          items: [
+            {
+              label: 'Privacy Policy',
+              href: 'https://sweep.run/privacy',
+            },
+            {
+              label: 'Terms of Service',
+              href: 'https://sweep.run/terms',
+            },
+            {
+              label: 'Contact',
+              href: 'mailto:contact@sweep.run',
+            },
           ],
         },
       ],
-      copyright: `Copyright © Dotmote Labs ${new Date().getFullYear()}`,
+      copyright: `© ${new Date().getFullYear()} SWEEP, Inc. All rights reserved.`,
     },
     prism: {
       theme: lightCodeTheme,
       darkTheme: darkCodeTheme,
+    },
+    colorMode: {
+      defaultMode: 'light',
+      disableSwitch: false,
+      respectPrefersColorScheme: true,
     },
   },
   presets: [
@@ -76,16 +136,12 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
           routeBasePath: '/',
-          // editUrl:
-          //   'https://github.com/facebook/docusaurus/edit/master/website/',
+          editUrl: 'https://github.com/SWEEP-Inc/DocuSWEEP/edit/main/',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          // editUrl:
-          //   'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+          editUrl: 'https://github.com/SWEEP-Inc/DocuSWEEP/edit/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
