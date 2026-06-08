@@ -4,32 +4,32 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'AI-Powered Pull Requests',
     Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Let SWEEP automatically handle your pull requests with AI-powered insights.
+        Reduce manual review burden and accelerate your development workflow.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Code Quality & Consistency',
     Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Maintain code standards and consistency across your repository. SWEEP ensures
+        every pull request adheres to your team's coding guidelines and best practices.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Seamless Integration',
     Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Integrate SWEEP directly into your GitHub workflow. Works with existing CI/CD pipelines
+        and requires minimal setup to get started.
       </>
     ),
   },
