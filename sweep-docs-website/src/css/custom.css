@@ -15,8 +15,17 @@
   --ifm-color-primary-lighter: #3fb2ec;
   --ifm-color-primary-lightest: #63c0ef;
   --ifm-code-font-size: 95%;
+  --ifm-spacing-horizontal: 1.5rem;
+  --ifm-transition-fast: 150ms;
 }
 
+/* Dark mode enhancements */
+[data-theme='dark'] {
+  --ifm-background-color: #0a0e27;
+  --ifm-background-surface: #111633;
+}
+
+/* Code highlighting */
 .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.1);
   display: block;
@@ -26,4 +35,211 @@
 
 html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Homepage hero section */
+.hero {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero__title {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  background: linear-gradient(135deg, var(--ifm-color-primary) 0%, var(--ifm-color-primary-light) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.hero__subtitle {
+  font-size: 1.25rem;
+  color: var(--ifm-text-color-secondary);
+  margin-bottom: 2rem;
+}
+
+/* Footer improvements */
+.footer {
+  padding-top: 3rem !important;
+  padding-bottom: 2rem !important;
+}
+
+.footer__row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.footer__col {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer__title {
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.footer__item {
+  margin-bottom: 0.75rem;
+}
+
+.footer__link-item {
+  transition: color var(--ifm-transition-fast) ease;
+  text-decoration: none;
+}
+
+.footer__link-item:hover {
+  color: var(--ifm-color-primary-light);
+}
+
+.footer__copyright {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 2rem;
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.875rem;
+  color: var(--ifm-text-color-secondary);
+}
+
+/* Navigation bar improvements */
+.navbar {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  background: var(--ifm-navbar-background-color);
+}
+
+.navbar__link {
+  transition: color var(--ifm-transition-fast) ease;
+}
+
+.navbar__link:hover {
+  color: var(--ifm-color-primary-light);
+}
+
+.navbar__logo {
+  height: 2rem;
+  width: auto;
+}
+
+/* Button styling */
+.button {
+  border-radius: 0.375rem;
+  font-weight: 600;
+  transition: all var(--ifm-transition-fast) ease;
+}
+
+.button--primary {
+  background-color: var(--ifm-color-primary);
+  border-color: var(--ifm-color-primary);
+}
+
+.button--primary:hover {
+  background-color: var(--ifm-color-primary-dark);
+  border-color: var(--ifm-color-primary-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(28, 164, 232, 0.3);
+}
+
+/* Card styling */
+.card {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  transition: all var(--ifm-transition-fast) ease;
+}
+
+.card:hover {
+  border-color: var(--ifm-color-primary-light);
+  box-shadow: 0 4px 16px rgba(28, 164, 232, 0.15);
+}
+
+html[data-theme='dark'] .card {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+html[data-theme='dark'] .card:hover {
+  border-color: var(--ifm-color-primary-light);
+  box-shadow: 0 4px 16px rgba(28, 164, 232, 0.25);
+}
+
+/* Responsive improvements */
+@media (max-width: 996px) {
+  .hero__title {
+    font-size: 2rem;
+  }
+
+  .hero__subtitle {
+    font-size: 1rem;
+  }
+
+  .footer__row {
+    flex-direction: column;
+  }
+}
+
+/* Docs sidebar styling */
+.sidebar-item {
+  transition: color var(--ifm-transition-fast) ease;
+}
+
+.sidebar-item--active {
+  color: var(--ifm-color-primary);
+}
+
+/* Table styling */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+thead {
+  background-color: var(--ifm-color-primary);
+  color: white;
+}
+
+th {
+  padding: 1rem;
+  font-weight: 600;
+}
+
+td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+html[data-theme='dark'] td {
+  border-bottom-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Typography improvements */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+a {
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Code block styling */
+code {
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.25rem;
+  font-family: 'Courier New', monospace;
+}
+
+html[data-theme='dark'] code {
+  background-color: rgba(255, 255, 255, 0.1);
 }
