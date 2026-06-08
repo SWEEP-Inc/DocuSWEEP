@@ -56,10 +56,6 @@ module.exports = {
               label: 'Blog',
               to: '/blog',
             },
-            {
-              label: 'Pricing',
-              href: 'https://sweep.run/pricing',
-            },
           ],
         },
         {
@@ -67,19 +63,15 @@ module.exports = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/SWEEP-Inc/sweep',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discord.gg/sweep',
+              href: 'https://github.com/SWEEP-Inc/DocuSWEEP',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/sweep_run',
+              href: 'https://twitter.com/dotmotelabs',
             },
             {
               label: 'Email',
-              href: 'mailto:support@sweep.run',
+              href: 'mailto:hello@sweep.run',
             },
           ],
         },
@@ -87,16 +79,8 @@ module.exports = {
           title: 'Resources',
           items: [
             {
-              label: 'API Reference',
-              to: '/api',
-            },
-            {
               label: 'Changelog',
               href: 'https://github.com/SWEEP-Inc/sweep/releases',
-            },
-            {
-              label: 'Status',
-              href: 'https://status.sweep.run',
             },
           ],
         },
@@ -118,7 +102,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `© ${new Date().getFullYear()} SWEEP, Inc. All rights reserved.`,
+      copyright: `© 2026 Dotmote Labs. All rights reserved.`,
     },
     prism: {
       theme: lightCodeTheme,
