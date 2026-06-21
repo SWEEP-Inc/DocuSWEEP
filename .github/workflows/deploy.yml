@@ -38,11 +38,14 @@ jobs:
 
       - name: Build documentation
         working-directory: sweep-docs-website
+        env:
+          NODE_OPTIONS: --openssl-legacy-provider
         run: yarn build
 
       - name: Deploy to GitHub Pages
         working-directory: sweep-docs-website
         env:
+          NODE_OPTIONS: --openssl-legacy-provider
           GIT_USER: github-actions[bot]
           GIT_AUTHOR_NAME: github-actions[bot]
           GIT_AUTHOR_EMAIL: github-actions[bot]@users.noreply.github.com
