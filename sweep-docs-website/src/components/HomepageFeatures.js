@@ -9,7 +9,7 @@ const FeatureList = [
     description: (
       <>
         Let SWEEP automatically handle your pull requests with AI-powered insights.
-        Reduce manual review burden and accelerate your development workflow.
+        Reduce manual review burden and accelerate your development workflow with intelligent automation.
       </>
     ),
   },
@@ -29,7 +29,7 @@ const FeatureList = [
     description: (
       <>
         Integrate SWEEP directly into your GitHub workflow. Works with existing CI/CD pipelines
-        and requires minimal setup to get started.
+        and requires minimal setup to get started instantly.
       </>
     ),
   },
